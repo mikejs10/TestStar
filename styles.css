@@ -1,0 +1,16 @@
+
+.fullstar{
+        width: 1%;
+        width: 1%;
+        position: absolute;
+        top: 59%; 
+        left: 50%;
+}
+
+.adobe{
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
