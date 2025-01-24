@@ -9,7 +9,7 @@ const reviews = [
 ]
 
 
-function getAvergae(reviews) {
+function getAverage(reviews) {
     let total = 0;
     for(let i = 0; i < reviews.length; i++){
         total += reviews[i].rating
@@ -17,4 +17,8 @@ function getAvergae(reviews) {
     return total / reviews.length
 }
 
-console.log(getAvergae(reviews))
+console.log(getAverage(reviews))
+
+const average = getAverage(reviews);
+const averageElement = document.getElementById('average-rating')
+averageElement.textContent = average.toFixed(2)
